@@ -3,7 +3,8 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: 
+    text: Vagabond
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -15,9 +16,9 @@ head:
         name: vagabond
         # The displayed name of the web application
         # when there is not enough space to display full name
-        short_name: 
+        short_name: vagabond
         # The start URL of the web application
-        start_url: sc-xu.com
+        start_url: https://sc-xu.com
         # The default theme color for the application
         theme_color: 
         # A placeholder background color for the application page to display
@@ -39,13 +40,13 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 
+        title: vagabond
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: 
+        url: https://sc-xu.com
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
         image: 
@@ -54,7 +55,7 @@ head:
         site_name: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: sc-xu
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: 
@@ -105,11 +106,14 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        主页: /
-        归档: /archives
+        首页: /
+        文章归档: /archives
         分类: /categories
         标签: /tags
-        关于: /about
+        个人简介: /about
+        留言: /message
+        音乐: /music
+        媒体: /media
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -118,7 +122,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    copyright: © 2023
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -215,11 +219,11 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -229,11 +233,11 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: sc-xu
         # Author title
-        author_title: Your title
+        author_title: 
         # Author's current location
-        location: Your location
+        location: 中国·安徽·合肥
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
