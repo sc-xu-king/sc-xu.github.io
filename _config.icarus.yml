@@ -17,7 +17,7 @@ head:
         # when there is not enough space to display full name
         short_name: 
         # The start URL of the web application
-        start_url: 
+        start_url: sc-xu.com
         # The default theme color for the application
         theme_color: 
         # A placeholder background color for the application page to display
@@ -29,7 +29,7 @@ head:
         icons:
             -
                 # The path to the image file
-                src: '/img/logo.svg'
+                src: ''
                 # A string containing space-separated image dimensions
                 sizes: ''
                 # A hint as to the media type of the image
