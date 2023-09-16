@@ -3,11 +3,11 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/avengers.svg
+logo: /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/avengers.svg
+    favicon: /img/logo.svg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -29,7 +29,7 @@ head:
         icons:
             -
                 # The path to the image file
-                src: '/img/avengers.svg'
+                src: '/img/logo.svg'
                 # A string containing space-separated image dimensions
                 sizes: ''
                 # A hint as to the media type of the image
